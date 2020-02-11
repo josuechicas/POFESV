@@ -1,0 +1,24 @@
+
+
+<p-panel header="Buscar DTE" [toggleable]="true" [style]="{'margin-bottom':'20px'}">
+    <div>
+    <h3 class="first">CUDE</h3>
+<input id="input" type="text" size="30" pInputText [(ngModel)]="cude"> 
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+<div>
+<!--<p-captcha siteKey="6Lf2XQkTAAAAANcvOwYqPxWL4iZDksFqHpS39GDA" (onResponse)="showResponse($event)"></p-captcha>-->
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<div>
+    <button pButton type="button" (click)="onClickSearchByCude()" label="Consultar" class="ui-button-rounded ui-button-secondary" ></button>
+    <button pButton type="button" label="Cancelar" class="ui-button-rounded ui-button-secondary"></button>
+ 
+    </div>
+
+   
+</p-panel>
+
+
+
